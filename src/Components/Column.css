@@ -1,0 +1,41 @@
+.column {
+    background-color: #142d4c;
+    border-radius: 8px;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: white;
+  }
+  
+  .sort-button {
+    display: block;
+    margin: 0 auto 10px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sort-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .tasks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .task-container {
+    cursor: grab;
+  }
+  

@@ -1,0 +1,39 @@
+.kanban-board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #385170;
+  }
+  
+  .search-input {
+    margin: 20px 0;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .kanban-board {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .clear-completed-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #10bcf0;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .clear-completed-button:hover {
+    background-color: #ff4c4c;
+  }
+  
+ #heading{
+    margin-bottom: 20px;
+ }
